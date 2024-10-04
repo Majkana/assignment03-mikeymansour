@@ -8,7 +8,7 @@ import { DataGenerator } from './testData';
 
 const test_username: any = process.env.TEST_USERNAME;
 const test_password: any = process.env.TEST_PASSWORD;
-const baseUrl = `${process.env.BASE_URL}`;
+const baseUrl = `${process.env.BASE_API}`;
 
 
 test.describe('Front-end tests', () => {
